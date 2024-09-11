@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Story</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h2>Submit Your Story</h2>
+    <form action="/submit-story" method="POST">
+        <label for="title">Story Title:</label>
+        <input type="text" name="title" id="title" required>
+        <br>
+        <label for="content">Story Content:</label>
+        <textarea name="content" id="content" rows="5" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
